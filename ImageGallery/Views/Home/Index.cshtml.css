@@ -1,0 +1,38 @@
+﻿.body{
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    grid-template-rows: 470px 470px 470px;
+    padding: 5px;
+    justify-content: center
+}
+
+.card {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #7a5ca0;
+    background-clip: border-box;
+    border: 1px;
+    width: 600px;
+    height: 475px;
+    column-gap: 770px;
+}
+
+.card-img {
+
+}
+
+.card-body {
+    height: 25px;
+    width: 351px;
+    font-family: Candara;
+    background-color: #7a5ca0;
+}

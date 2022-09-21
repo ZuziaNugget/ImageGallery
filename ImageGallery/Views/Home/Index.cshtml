@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Image.Models.Imagedata>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="body">
+    <div class="text-center">
+           <h1 class="display-4">Welcome</h1>
+    </div>
+    <div class="grid-container">
+        @foreach (var thing in Model) 
+        {
+            <div class="card">
+                <div class="card-img">
+                    <img src="@("~/image/"+thing.ImageUrl)" asp-append-version="true" width="578px" height="350px"/>
+                    </div>
+                <div class="card-body">
+                    <h5 class="card-title">@thing.ImageName</h5>
+                    <h11 class="card-title">@thing.Discription</h11>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+   
+
+
