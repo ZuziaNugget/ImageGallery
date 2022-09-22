@@ -38,9 +38,22 @@ namespace ImageGallery.Controllers
             return View(objCatlist);
         }
 
-        public IActionResult Details()
+        public IActionResult Details(int? id)
         {
-            return View();
+            //IEnumerable<Imagedata> objCatlist = _context.Images;
+            //return View(objCatlist);
+
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var empfromdb = _context.Images.Find(id);
+
+            if (empfromdb == null)
+            {
+                return NotFound();
+            }
+            return View(empfromdb);
         }
 
 

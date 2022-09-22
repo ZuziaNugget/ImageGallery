@@ -1,6 +1,7 @@
 /* _content/ImageGallery/Views/Home/Index.cshtml.rz.scp.css */
 .body[b-6lznn9ol9j]{
-    padding: 10px;
+    margin-left: -10px;
+    background-color:cornflowerblue;
 }
 
 .grid-container[b-6lznn9ol9j] {
@@ -23,7 +24,7 @@
     background-clip: border-box;
     border: 1px;
     width: 600px;
-    height: 475px;
+    height: 480px;
     column-gap: 770px;
 }
 

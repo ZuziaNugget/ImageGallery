@@ -15,7 +15,7 @@ namespace ImageGallery.Data
             throw new NotImplementedException();
         }
 
-        public object? Execute(Expression expression)
+        public object Execute(Expression expression)
         {
             throw new NotImplementedException();
         }

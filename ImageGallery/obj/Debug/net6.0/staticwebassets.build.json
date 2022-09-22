@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WjQrdSHalbniJCN20UPXItstPWA3QlBs4jKl2iVsVeE=",
+  "Hash": "+/ZQwzIlVmF8CKSa6QGolYsNOpvKRbwLHBxwQaNyspw=",
   "Source": "ImageGallery",
   "BasePath": "_content/ImageGallery",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\Piet.png"
+    },
+    {
+      "Identity": "C:\\Users\\Zuzanna\\Desktop\\Eigen projecten\\C#\\Leerjaar2\\ImageGallery\\ImageGallery\\wwwroot\\image\\PUBERTY.png",
+      "SourceId": "ImageGallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zuzanna\\Desktop\\Eigen projecten\\C#\\Leerjaar2\\ImageGallery\\ImageGallery\\wwwroot\\",
+      "BasePath": "_content/ImageGallery",
+      "RelativePath": "image/PUBERTY.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\PUBERTY.png"
     },
     {
       "Identity": "C:\\Users\\Zuzanna\\Desktop\\Eigen projecten\\C#\\Leerjaar2\\ImageGallery\\ImageGallery\\wwwroot\\image\\Whitespace.png",
